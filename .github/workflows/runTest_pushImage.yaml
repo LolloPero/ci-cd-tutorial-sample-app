@@ -15,7 +15,7 @@ jobs:
   # Run code tests before building the image, to ensure it is good to go
   build:
     name: Run code tests
-    runs-on: linux
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: ["3.9", "3.10"]
